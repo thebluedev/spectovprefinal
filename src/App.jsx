@@ -54,7 +54,7 @@ function App() {
 
 
 			<Route path="/details" element={<Navigate replace to="/login" />} />
-			<Route path="/course" exact element={<CoursePage />}/>
+			<Route path="/course" element={<CoursePage />}/>
 		</Routes>
     </BrowserRouter>
 	);
